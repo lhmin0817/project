@@ -1,0 +1,137 @@
+#main #main-img {
+    width: 50%;
+}
+
+#main #main-menu .larest {
+    border-bottom: 2px solid rgb(146, 134, 134);
+}
+
+#main #main-menu .larest h3 {
+    text-align: center;
+}
+
+#main #main-menu .larest h5 {
+    /* border: 1px solid red; */
+    float: right;
+    width: 50px;
+    margin-top: 0;
+}
+
+#main #main-menu {
+    /* margin: 30px 0 0 0; */
+    float: right;
+    border: 1px solid red;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 300px;
+}
+
+#main #main-menu .data {
+    float: left;
+}
+
+#main #main-menu .latest1 {
+    float: left;
+}
+
+#main #main-menu .more {
+    float: right;
+}
+
+#main #main-menu .list {
+    border-bottom: 1px solid red;
+    float: right;
+}
+
+#main #main-menu .larest-1 li {
+    padding: 10px 0 10px 0;
+}
+
+#main #main-menu .larest-2 li {
+    padding: 10px 0 10px 0;
+}
+
+#main #main-menu .list div {
+    float: left;
+}
+
+#main #main-menu .sub {
+    margin: 0 60px 0 0;
+    width: 100%;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+#main .main-img02 {
+    margin-top: 2rem;
+    /* float: right; */
+    position: relative;
+}
+
+/* CUSTOMIZE THE CAROUSEL */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+.carousel-item {
+    height: 30rem;
+}
+
+
+/* MARKETING CONTENT */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+
+/* Featurettes*/
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+}
+
+.featurette-heading {
+    /* border: 1px solid red; */
+    letter-spacing: -.05rem;
+    width: 50%;
+}
+
+/* RESPONSIVE CSS*/
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+

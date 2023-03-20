@@ -1,0 +1,62 @@
+#main{
+    width: 50rem;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: absolute;
+    float: left;
+}
+#board_title{
+    margin-top: 20px;
+    padding: 0 0 5px 0;
+}
+#view_title{
+    margin: 10px 0 0 0;
+    padding: 10px;
+    border-top: 2px solid #aaaaaa;
+    background-color: #eeeeee;
+}
+#info{
+    margin: 0 0 0 270ox;
+}
+#view_content{
+margin-top: 20px ;
+}
+#comments_box{
+    height: 112px;
+    position: relative;
+    background-color: #efefef;
+    border: 1px solid #cccccc;
+}
+#title_comments{
+    position: absolute;
+    top: 15px; left: 15px;
+}
+#comments_box textarea{
+    width: 515px; height: 80px;
+    position: absolute;
+    top: 15px; left: 150px;
+}
+#ok_ripple{
+    position: absolute;
+    top: 15px; left: 670px;
+}
+#buttons{
+    text-align: right;
+    margin: 20px 0 0 0;
+}
+.freeboard-view-img{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+.col-md-7{
+    margin: 100px 0 0 50px;
+}
+.col-md-5{
+    margin-top: 100px;
+    /* background-image: url(../assets/img/1.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px; height: 500px;
+    position: relative;
+}
